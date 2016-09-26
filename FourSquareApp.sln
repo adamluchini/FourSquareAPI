@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{97D19588-7BE7-4F9E-93FB-42927536DB87}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{32F5885A-2759-4DED-90D5-54D670A1E33A}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FourSquareApp", "src\FourSquareApp\FourSquareApp.xproj", "{DEFFFF69-056D-452C-8C3C-A1B9E5AF7106}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEFFFF69-056D-452C-8C3C-A1B9E5AF7106}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEFFFF69-056D-452C-8C3C-A1B9E5AF7106}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEFFFF69-056D-452C-8C3C-A1B9E5AF7106}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEFFFF69-056D-452C-8C3C-A1B9E5AF7106}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DEFFFF69-056D-452C-8C3C-A1B9E5AF7106} = {97D19588-7BE7-4F9E-93FB-42927536DB87}
+	EndGlobalSection
+EndGlobal
